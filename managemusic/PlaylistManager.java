@@ -10,6 +10,8 @@ package managemusic;
  *
  * @author aaron
  */
+
+//Abstract data type 2
 public class PlaylistManager implements Repeatable {
     private boolean repeat;
     private Playlist repeatPlaylist;

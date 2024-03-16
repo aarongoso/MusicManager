@@ -201,7 +201,7 @@ private void repeatPlaylist() {
         SongLbl.setForeground(new java.awt.Color(255, 255, 255));
         SongLbl.setText("Enter song name:");
         getContentPane().add(SongLbl);
-        SongLbl.setBounds(28, 230, 99, 16);
+        SongLbl.setBounds(28, 230, 100, 16);
 
         MoveBtn.setText("Move");
         MoveBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -219,7 +219,7 @@ private void repeatPlaylist() {
             }
         });
         getContentPane().add(RepeatBtn);
-        RepeatBtn.setBounds(340, 270, 120, 23);
+        RepeatBtn.setBounds(340, 270, 130, 23);
 
         DisplayBtn.setText("Display number of songs per playlist");
         DisplayBtn.addActionListener(new java.awt.event.ActionListener() {
